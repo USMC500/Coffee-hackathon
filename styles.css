@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
 }
+
 .content {
   margin: 40px;
   background-color: hsla(30, 100%, 50%, 0.3);
@@ -13,13 +14,11 @@ body {
   color: rgb(240, 210, 210);
 }
 .hero {
-  position: relative;
-  text-align: center;
+  padding: 15px 20px;
 }
-
-li {
-  list-style: none;
-  padding: 5px;
+.story {
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.1);
 }
 .menu-con {
   display: grid;
@@ -29,6 +28,7 @@ li {
   margin: auto;
   align-items: stretch;
 }
+
 .Menu-Coffee {
   display: flex;
   flex-direction: row;
@@ -40,12 +40,14 @@ li {
   min-height: 350px;
   height: 100%;
 }
+
 .coffee-img {
   height: 300px;
   width: 300px;
   object-fit: cover;
   flex-shrink: 0;
 }
+
 .text-con {
   display: flex;
   flex-direction: column;
