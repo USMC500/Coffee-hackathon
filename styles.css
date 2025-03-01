@@ -5,13 +5,22 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  font-size: larger;
+}
+h3,
+h4 {
+  margin: 40px;
 }
 
+.menu-con,
+h4 {
+  padding: 25px;
+}
 .content {
   margin: 40px;
   background-color: hsla(30, 100%, 50%, 0.3);
   text-align: center;
-  color: rgb(240, 210, 210);
+  color: rgb(255, 225, 225);
 }
 .hero {
   padding: 15px 20px;
